@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["franca.rast@screenconcept.ch"]
   s.homepage    = "https://github.com/ryabrody"
   s.summary     = %q{Fancy game for Cat-Fans}
-  s.description = %q{Fancy game for Cat-Fans}
+  s.description = %q{Play a game with a lovely cat in your terminal. }
   
   s.rubyforge_project = "catgame"
 
