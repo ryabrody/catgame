@@ -1,6 +1,6 @@
 # Catgame #
 
-A game with a lovely cat which you can play in your terminal.
+A game with a lovely cat which you can play in your terminal. It works with Ruby Version 1.8.7.
 
 ## How to install ##
 
