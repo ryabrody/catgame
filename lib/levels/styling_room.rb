@@ -21,6 +21,7 @@ module Levels
           return Levels::GuestRoom
         when BAD_CHOICE
           second_choice
+          return Levels::Death
         else
           invalid_input
         end
@@ -59,7 +60,6 @@ module Levels
       Oh, no ! It was too cold for Johnny outside.
       He is frozen and never mets your Friend.      
       PARAGRAPH
-      death
     end
   
     def invalid_input

@@ -21,6 +21,7 @@ module Levels
           return Levels::WashingRoom
           when BAD_CHOICE
           second_choice
+          return Levels::Death
           else
           invalid_input
         end
@@ -56,7 +57,6 @@ module Levels
       Oh man, the food from my grandmother wasn't fresh anymore
       That's maybe the reason why Johnny don't move anymore.
       PARAGRAPH
-      death
     end
   
     def invalid_input

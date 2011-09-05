@@ -21,6 +21,7 @@ module Levels
             return Levels::TrainingRoom
           when BAD_CHOICE
             second_choice
+            return Levels::Death
           else
             invalid_input
         end
@@ -63,7 +64,6 @@ module Levels
       you find Johnny in the bath tube.
       The tube was too full for Johnny.
       PARAGRAPH
-      death
     end
   
     def invalid_input

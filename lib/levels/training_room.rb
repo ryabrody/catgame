@@ -21,6 +21,7 @@ module Levels
             return Levels::StylingRoom
           when 10
             second_choice(1)
+            return Levels::Death
           else
             invalid_input
         end
@@ -79,7 +80,6 @@ module Levels
       Shit happens. That was too much for Johnny.
       Johnny never made a ##{i} Training."
       PARAGRAPH
-      death
     end   
   end
 end

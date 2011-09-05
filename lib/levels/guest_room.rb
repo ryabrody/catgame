@@ -21,6 +21,7 @@ module Levels
           return Levels::SleepingRoom
           when BAD_CHOICE
           second_choice
+          return Levels::Death
           else
           invalid_input
         end
@@ -61,7 +62,6 @@ module Levels
       Poor Johnny. He was so bored, that he can't breath anymore.
       Johnny never plays outside again.
       PARAGRAPH
-      death
     end
   
     def invalid_input

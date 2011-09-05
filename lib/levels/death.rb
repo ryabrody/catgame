@@ -6,7 +6,7 @@ module Levels
       @status = Helper::Assets.deathpic
     end
 
-    def death
+    def enter
       space
       puts <<-PARAGRAPH
       *** R.I.P Johnny ***

@@ -21,6 +21,7 @@ module Levels
             Process.exit(0)
           when BAD_CHOICE
            second_choice
+           return Levels::Death
           else
             invalid_input
           end
@@ -62,7 +63,6 @@ module Levels
       Johnny's heartache was big because he still miss his girlfriend. 
       He's heart decided to don't beat anmymore.        
       PARAGRAPH
-      death
     end
     def invalid_input
       space

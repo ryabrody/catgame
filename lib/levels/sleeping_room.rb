@@ -21,6 +21,7 @@ module Levels
           return Levels::HappyEnd
         when BAD_CHOICE
           second_choice
+          return Levels::Death
         else
           invalid_input
         end
@@ -64,7 +65,6 @@ module Levels
       He's heart hurt so much that Johnny decied
       to never wake up again.      
       PARAGRAPH
-      death
     end
   
     def invalid_input
